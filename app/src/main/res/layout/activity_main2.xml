@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurante 'RivGuz'"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_gravity="center|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En este menú se encuentran los diferentes platillos de las entradas que se manejan en el resturante 'RivGuz' (Ficticio), si quieres conocer los platillos correspondintes, solo da click en el boton que deseas."
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center|top"/>
+
+    <ImageView
+        android:id="@+id/entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/entrada">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada"
+        android:layout_gravity="left|center"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnEntrada"/>
+
+    <ImageView
+        android:id="@+id/platoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/comida">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plato Fuerte"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnPlatoF"/>
+
+    <ImageView
+        android:id="@+id/helado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/helado">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postres"
+        android:layout_gravity="right|center"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnPostre"/>
+
+
+    <ImageView
+        android:id="@+id/snacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/snacks1">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnSnacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/snacks"
+        android:layout_gravity="bottom|left"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Snacks" />
+
+    <ImageView
+        android:id="@+id/bebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/bebida1">
+    </ImageView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bebidas"
+        android:layout_gravity="bottom|center"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnPlatoF"
+        android:id="@+id/btnBebidas"/>
+
+    <ImageView
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/regresar1">
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="bottom|right"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnBebidas"
+        android:id="@+id/btnRegresar"/>
+
+
+</FrameLayout>

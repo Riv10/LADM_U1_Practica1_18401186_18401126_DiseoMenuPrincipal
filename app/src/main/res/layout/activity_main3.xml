@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú de Entradas - Platos Fuertes - Postres"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú de Entradas:\n
+  1.- Bocadillos de Pollo con Mole \n
+  2.- Champiñones Rellenos\n
+  3.- Sopa de Pollo\n
+  4.- Budin de Zapatillo Italiano"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú de Platos Fuertes:\n
+  1.- Cochinita Pibil \n
+  2.- Pollo en crema de Chipotle\n
+  3.- Lasaña\n
+  4.- Chuletas a la Hawaiana"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menú de Postres:\n
+  1.- Nieve de Fresa y/o Chocolate\n
+  2.- Fresas con crema\n
+  3.- Pastelito\n
+  4.- Gelato"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:id="@+id/regresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/regresar1">
+            </ImageView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:layout_gravity="right"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnRegresar2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
